@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
 
-  app-kafka-consummer:
+  app-kafka-consumer:
     build:
       dockerfile: ./docker/kafka/Dockerfile
       context: .
@@ -14,7 +14,7 @@ services:
 # docker-compose run --rm app-kafka-consummer composer install
 ################################################################
 # run_consumer
-# docker-compose run --rm --entrypoint php app-kafka-consummer run_consumer_low_level.php
-# docker-compose run --rm --entrypoint php app-kafka-consummer run_consumer_high_level.php
+# docker-compose run --rm --entrypoint php app-kafka-consumer run_consumer_low_level.php
+# docker-compose run --rm --entrypoint php app-kafka-consumer run_consumer_high_level.php
 # Log
 # tail data/logs/*.log

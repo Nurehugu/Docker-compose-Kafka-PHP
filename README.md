@@ -33,7 +33,6 @@ tail data/logs/*.log
 ## Producer
 
 
----
 ### Composer install
 
 ```
@@ -52,3 +51,4 @@ docker-compose run --rm --entrypoint php app-kafka-produser run_producer.php
 ```
 tail data/logs/*.log
 ```
+---

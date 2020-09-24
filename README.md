@@ -14,11 +14,7 @@ docker-compose run --rm app-kafka-consummer composer install
 ### Run consumer
 
 ```
-docker-compose run --rm --entrypoint php app-kafka-consumer run_consumer_low_level.php
-```
-OR
-```
-docker-compose run --rm --entrypoint php app-kafka-consumer run_consumer_high_level.php
+docker-compose run --rm --entrypoint php app-kafka-consumer run_consumer_test_cloud_croc_ru.php
 ```
 
 ---
